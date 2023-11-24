@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    color: #2B2A4C;
+    text-decoration: none;
+}
+
+body {
+    background-color: #EEF5FF;
+}
+
+.container header {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.container header .logo h1, i {
+    font-size: 12px;
+    font-weight: 900;
+    color: #A25772;
+    margin: 0 0 0 15px;
+}
+
+.container header .links ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+.container header .links ul li {
+    font-size: 10px;
+    color: #265073;
+}
+
+.container header .links ul li:hover {
+    color: #A25772;
+    transition: all 600ms ease-in-out;
+    transform: rotate(360deg);
+}
+
+.container header .icons i {
+    color: #A25772;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* section home */
+.container .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .home h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 15px 0 10px;
+}
+
+.container .home p {
+    font-size: 10px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.container .home button {
+    width: 100px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border: 1px solid #A25772;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: 500;
+    background: transparent;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container .home .active {
+    background-color: #A25772;
+    color: #EEF5FF;
+}
+
+.container .home .active:hover {
+    background-color: transparent;
+    color: #A25772;
+    transform: scale(0.90);
+    transition: all 600ms ease-in-out;
+    border: 1px solid #A25772;
+}
+
+/* section products */
+.container .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px; 
+}
+
+
+
+.container .products .food img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.container .products .food h5 {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #2B2A4C;
+}
+
+.container .products .food p {
+    font-size: 12px;
+    color: #A25772;
+    margin-top: 5px;
+}
+
+.container .products .brg-cart {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.container .products .brg-cart h5 {
+    color: #A25772;
+    margin-top: 5px;
+}
+
+.container .products .brg-cart button {
+    width: 100px;
+    height: 20px;
+    border: none;
+    margin: 10px;
+    font-size: 10px;
+    background-color: #A25772;
+    color: white;
+    border-radius: 5px;
+}
+
+.container .products .brg-cart button:hover {
+    background-color: transparent;
+    color: #A25772;
+    transform: scale(0.90);
+    transition: all 600ms ease-in-out;
+    border: 1px solid #A25772;
+}
